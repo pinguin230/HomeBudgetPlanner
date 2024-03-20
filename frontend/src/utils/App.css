@@ -1,0 +1,11 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,blockquote,figure,fieldset,legend,button,input,textarea,pre,code,abbr,mark,small,strong,sub,sup,output,summary,details {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
