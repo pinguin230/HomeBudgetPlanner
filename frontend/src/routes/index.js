@@ -19,5 +19,5 @@ export const ErrorRoute = {
 
 export const routes = [
     HomeRoute,
-		ErrorRoute
+	ErrorRoute
 ]
