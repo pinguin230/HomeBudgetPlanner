@@ -1,0 +1,12 @@
+@import "./../../style/index.scss";
+
+.home__image {
+  width: getRem(1303);
+  height: getRem(646);
+}
+
+.home__image__container {
+  margin-top: getRem(50);
+  display: flex;
+  justify-content: center;
+}

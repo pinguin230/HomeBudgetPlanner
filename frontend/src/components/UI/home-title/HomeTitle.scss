@@ -1,0 +1,47 @@
+@import "../../../style/index.scss";
+
+.home__title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.home__collum{
+  height: getRem(290);
+}
+
+.home__row {
+  max-width: getRem(837);
+  margin-bottom: getRem(24);
+}
+
+
+.home__row-title {
+  margin-top: getRem(110);
+  color: #478B2F;
+  font-size: getRem(64);
+  font-weight: 700;
+}
+
+.home__row-description {
+  color: #828282;
+  font-size: getRem(24);
+  font-weight: 400;
+  line-height: 150%
+}
+
+.home__row-button{
+  display: inline-block;
+  padding: getRem(14) getRem(24);
+  border-radius: getRem(8);
+  background-color: #000000;
+  color: #EAFFCF;
+  font-size: getRem(16);
+  font-weight: 500;
+  box-shadow: getRem(0) getRem(1) getRem(2) getRem(0) rgba(0, 0, 0, 0.05);
+}
+
+.start__button {
+  background: transparent;
+  color: #eaffcf;
+}
