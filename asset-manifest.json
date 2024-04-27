@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HomeBudgetPlanner/static/css/main.d5d91e0f.css",
-    "main.js": "/HomeBudgetPlanner/static/js/main.44537110.js",
+    "main.js": "/HomeBudgetPlanner/static/js/main.705ddd99.js",
     "static/media/Hero Image.svg": "/HomeBudgetPlanner/static/media/Hero Image.185b752909111e687800421125aeb2d0.svg",
     "static/media/image 1.svg": "/HomeBudgetPlanner/static/media/image 1.d5ed59e369425870468bd67ed20240de.svg",
     "static/media/Logo.svg": "/HomeBudgetPlanner/static/media/Logo.1f71150533fffd75e8fe8aac3b9a7b9d.svg",
@@ -12,10 +12,10 @@
     "static/media/facebook logo.svg": "/HomeBudgetPlanner/static/media/facebook logo.e3deae45229c4ac470a47da4081c14a1.svg",
     "index.html": "/HomeBudgetPlanner/index.html",
     "main.d5d91e0f.css.map": "/HomeBudgetPlanner/static/css/main.d5d91e0f.css.map",
-    "main.44537110.js.map": "/HomeBudgetPlanner/static/js/main.44537110.js.map"
+    "main.705ddd99.js.map": "/HomeBudgetPlanner/static/js/main.705ddd99.js.map"
   },
   "entrypoints": [
     "static/css/main.d5d91e0f.css",
-    "static/js/main.44537110.js"
+    "static/js/main.705ddd99.js"
   ]
 }
