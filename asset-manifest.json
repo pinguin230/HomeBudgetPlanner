@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/HomeBudgetPlanner/static/css/main.d5d91e0f.css",
+    "main.js": "/HomeBudgetPlanner/static/js/main.44537110.js",
+    "static/media/Hero Image.svg": "/HomeBudgetPlanner/static/media/Hero Image.185b752909111e687800421125aeb2d0.svg",
+    "static/media/image 1.svg": "/HomeBudgetPlanner/static/media/image 1.d5ed59e369425870468bd67ed20240de.svg",
+    "static/media/Logo.svg": "/HomeBudgetPlanner/static/media/Logo.1f71150533fffd75e8fe8aac3b9a7b9d.svg",
+    "static/media/instagram logo.svg": "/HomeBudgetPlanner/static/media/instagram logo.c1fa0a30f187a11174489819fc0746e7.svg",
+    "static/media/whatsapp logo.svg": "/HomeBudgetPlanner/static/media/whatsapp logo.d18dcb6a0ea9a99ef28c8ca40147101c.svg",
+    "static/media/twitter logo.svg": "/HomeBudgetPlanner/static/media/twitter logo.747b2d2cd7eeefe826739a12e37cbf8b.svg",
+    "static/media/messenger logo.svg": "/HomeBudgetPlanner/static/media/messenger logo.9b0aa0ebcfb5555cffcf8eb1e3d455da.svg",
+    "static/media/facebook logo.svg": "/HomeBudgetPlanner/static/media/facebook logo.e3deae45229c4ac470a47da4081c14a1.svg",
+    "index.html": "/HomeBudgetPlanner/index.html",
+    "main.d5d91e0f.css.map": "/HomeBudgetPlanner/static/css/main.d5d91e0f.css.map",
+    "main.44537110.js.map": "/HomeBudgetPlanner/static/js/main.44537110.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5d91e0f.css",
+    "static/js/main.44537110.js"
+  ]
+}
