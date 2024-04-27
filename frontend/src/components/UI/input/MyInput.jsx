@@ -1,9 +1,9 @@
 // MyInput компонента
 import React from "react";
-import classes from "./MyInput.module.css";
+import "./MyInput.scss";
 
 const MyInput = (props) => {
-  return <input {...props} />;
+  return <input className="myInput" {...props} />;
 };
 
 export default MyInput;

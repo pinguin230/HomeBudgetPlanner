@@ -1,0 +1,59 @@
+@import "./../../style/index";
+
+
+.registration__container{
+  display: flex;
+  max-width: getRem(1303);
+  margin: getRem(80) auto getRem(120);
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.registration__column{
+  flex: 1;
+
+}
+
+.registration__column-img{
+  display: flex;
+  justify-content: center;
+}
+
+.registration__row-name{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.registration__container p{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: getRem(16);
+  line-height: 150%;
+  color: #000;
+}
+
+.registration__container h1{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: getRem(64);
+  letter-spacing: -0.02em;
+  color: #000;
+  margin-bottom: getRem(22);
+}
+
+.registration__row-first_name{
+  width: 100%;
+  margin-right: getRem(32);
+}
+
+.registration__row-last_name{
+  width: 100%;
+}
+
+.registration__button{
+  width: 100%;
+}

@@ -36,12 +36,11 @@
   border-radius: getRem(8);
   background-color: #000000;
   color: #EAFFCF;
-  font-size: getRem(16);
+  //font-size: getRem(16);
   font-weight: 500;
   box-shadow: getRem(0) getRem(1) getRem(2) getRem(0) rgba(0, 0, 0, 0.05);
 }
 
 .start__button {
-  background: transparent;
-  color: #eaffcf;
+  font-size: getRem(16);
 }

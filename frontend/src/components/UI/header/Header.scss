@@ -16,10 +16,25 @@ ul li {list-style: none;}
 img {vertical-align: top;}
 h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
 
+:root{
+  --font-family: 'Inter', sans-serif;
+}
+
 html{
   background-color: #EAFFCF;
-  font-family: 'Inter', sans-serif;
+//
+}
 
+.button{
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  background: #000;
+  border-radius: getRem(8);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: getRem(20);
+  line-height: 150%;
+  color: #eaffcf;
+  text-align: center;
 }
 
 .header{

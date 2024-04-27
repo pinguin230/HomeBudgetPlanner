@@ -1,0 +1,37 @@
+@import "./../../../style/index";
+
+.home__description-container{
+  width: getRem(1250);
+  margin: getRem(76) getRem(76);
+}
+
+.home__description-title{
+  letter-spacing: -0.02em;
+  margin-bottom: getRem(20);
+  margin-top: getRem(20);
+
+  h1{
+    font-weight: 700;
+    font-size: getRem(40);
+    color: #000;
+  }
+}
+
+.home__description-description{
+  line-height: 150%;
+  color: #000;
+  p{
+    font-weight: 500;
+    font-size: getRem(20);
+    margin-top: getRem(10);
+    margin-bottom: getRem(10);
+    line-height: 150%;
+    &:first-child {
+      margin-top: getRem(0);
+    }
+
+    &:last-child {
+      margin-bottom: getRem(0);
+    }
+  }
+}

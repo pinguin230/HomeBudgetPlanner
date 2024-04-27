@@ -3,6 +3,7 @@ import logo from './../../../images/Logo.svg';
 import {NavLink} from "react-router-dom";
 import MyButton from "../button/MyButton";
 import './Header.scss';
+import MyNavLink from "../nav-bar/MyNavLink";
 
 const Header = () => {
 	return (
@@ -34,7 +35,7 @@ const Header = () => {
 						</nav>
 					</div>
 					<div className="header__col header__col--login">
-						<MyButton className="login__button">Увійти</MyButton>
+						<MyNavLink className="login__button" to="/login">Увійти</MyNavLink>
 					</div>
 				</div>
 

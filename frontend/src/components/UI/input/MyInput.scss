@@ -1,0 +1,21 @@
+@import "./../../../style/index";
+
+.myInput {
+  width: 100%;
+  padding: getRem(12) getRem(16);
+  margin: getRem(5) getRem(0) getRem(24);
+  border-radius: getRem(8);
+  height: getRem(48);
+  border: getRem(1) solid #e0e0e0;
+  background: #eaffcf;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+
+  &::placeholder{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #828282;
+  }
+}
+

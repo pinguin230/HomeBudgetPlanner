@@ -1,0 +1,52 @@
+@import '../../../style/index';
+
+.footer__container{
+  display: flex;
+  flex-direction: row;
+  width: getRem(1240);
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.footer__column:nth-child(1) {
+  flex: 1; // Перша колонка буде вдвічі ширшою
+}
+
+.footer__column:nth-child(2) {
+  flex: 2; // Друга і третя колонки займуть однакову ширину
+}
+
+.footer__column:nth-child(3) {
+  flex: 1; // Також займе таку ж ширину, як і друга колонка
+}
+
+.footer_pages--row{
+  //display: inline-block;
+}
+
+.footer__pages{
+  margin-right: getRem(40);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer__icon{
+  width: getRem(24);
+  height: getRem(24);
+  margin: getRem(12) getRem(12) getRem(12) 0;
+
+  //@include breakpoint(mobile) {
+  //  margin: getRem(12) getRem(12) auto 0;
+  //}
+  //
+  //@include breakpoint(tablet_landscape) {
+  //  margin: 0 getRem(6) 0 0;
+  //}
+}
