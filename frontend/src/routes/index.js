@@ -19,7 +19,7 @@ export const ErrorRoute = {
 }
 
 export const LoginRoute = {
-	path: "login",
+	path: "/login",
 	name: "Login",
 	element: <Login />,
 	protectedRoute: false,
