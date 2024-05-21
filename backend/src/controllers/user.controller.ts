@@ -1,5 +1,5 @@
 import express, {Request,NextFunction,Response} from "express";
-import {registerUser } from '../servises/user.service';
+import {loginUser, registerUser} from '../servises/user.service';
 import {userLoginEntitySchema, userRegisterEntitySchema} from '../validation/user.validation';
 import BadRequestError from '../error/bed.reqest.error';
 let userRouter =express.Router();
@@ -31,9 +31,9 @@ userRouter.post('/login',  async (req: Request, res: Response, next: NextFunctio
         }
 
         let userInfo = req.body;
-        const userMessage = await registerUser(userInfo);
+        const token = await loginUser(userInfo);
 
-        res.status(201).json(userMessage);
+        res.status(201).json(token);
     }
     catch (error) {
         next(error);

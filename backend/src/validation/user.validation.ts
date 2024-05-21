@@ -46,11 +46,8 @@ const userRegisterEntitySchema = Joi.object({
 
 });
 const userLoginEntitySchema= Joi.object({
-    email : Joi.string()
-                .email()
-                .required(),
-    password:Joi.string()
-                .required()
+    email : Joi.string().email().required(),
+    password:Joi.string().required()
 
 });
 export { userRegisterEntitySchema ,userLoginEntitySchema }
